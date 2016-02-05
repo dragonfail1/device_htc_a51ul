@@ -55,6 +55,7 @@ BOARD_KERNEL_PREBUILT_DT := true
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x02008000 --tags_offset 0x01e00000 --dt device/htc/a51ul/dt.img
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CONFIG := a51ul_defconfig
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/htc/msm8916
 
